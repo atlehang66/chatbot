@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="chat-icon"  onclick="openForm()"><img style="height: 50px; background-color: transparent; border-radius: 100%; border-color: greenyellow;" src="chat-svgrepo-com (1).png" alt=""></button>
+
+<div class="chat-popup" id="myForm">
+    <form class="form-container">
+
+    <p>Hi there! Im Dilan <br> Here to help answer some FAQs</p>
+    
+    <div class="chat-area">
+        <button class="chat-btn" >What is your experience in web development?</button>
+        <button class="chat-btn" >Can you show examples of your previous work?</button>
+        <button class="chat-btn" >What technologies do you specialize in?</button>
+        <button class="chat-btn" >How do you handle project deadlines?</button>
+        <button class="chat-btn" >What is your process for starting a new project?</button>
+    </div>
+    
+  </form>
+</div>
+</body>
+<script>
+    function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+</script>
+</html>
